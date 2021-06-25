@@ -181,4 +181,8 @@
         </div>
       </li>
     </ul>
+    @notifyCss
+    @include('notify::messages')
+    @notifyJs
   </nav>
+ 
