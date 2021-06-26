@@ -27,3 +27,4 @@ Route::get('/index', function () {
     return view('admin.dashboard');
 });
 Route::resource('category', 'App\Http\Controllers\CategoryController');
+Route::resource('subcategory', 'App\Http\Controllers\SubcategoryController');
